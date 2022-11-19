@@ -1,0 +1,18 @@
+.box {
+  display: flex;
+  position: relative;
+  min-width: 20px;
+  min-height: 20px;
+  flex-direction: row;
+  justify-content: center;
+  width: 60px;
+  border-radius: 3px;
+  padding: 10px;
+  border-color: rgba(0, 0, 0, 1);
+  border-width: 1px;
+  border-style: solid;
+}
+
+:hover {
+  cursor: pointer;
+}
